@@ -7,6 +7,6 @@ function start() {
   document.body.appendChild(app.view);
 
   // Add sprite
-  let sprite = PIXI.Sprite.from('ball.png');
+  let sprite = PIXI.Sprite.from('./sprites/ball.png');
   app.stage.addChild(sprite);
 }
